@@ -3,29 +3,29 @@
 
 ## Overview
 
-This is a simple web app that generates random secrets using a third-party API and displays them along with the username associated with the secret. 
+The Band Name Generator is a fun web application that generates random band names by combining a random adjective with a random noun.
 
 ## Features
 
-Displays a random "secret" message from the API.
+Generates a random band name each time the user clicks the "Generate Name" button.
 
-Shows the username of the person associated with the secret.
+Combines a random adjective and a random noun from pre-defined lists.
 
-Clean and responsive UI.
+Uses EJS templating engine to dynamically render the generated band name on the page.
 
-Built with Express.js for the server-side framework.
-
-Uses Axios to fetch random secrets from a third-party API.
+Simple and easy-to-use interface.
 
 ## Tech Stack
 
-Backend: Node.js, Express
+Node.js: JavaScript runtime used to run the server.
 
-API: Axios (for API requests)
+Express: Web framework used to handle HTTP requests and serve static files.
 
-Frontend: EJS (templating engine), HTML, CSS
+EJS: Templating engine used to render dynamic HTML.
 
-Server: Express server hosted locally
+Body-Parser: Middleware used to parse incoming request bodies (for form submissions).
+
+CSS: For styling the front-end.
 
 ## Installation & Usage
 
@@ -43,7 +43,8 @@ npm install
 
 npm start
 
-#### Open in Browser: 
+#### Visit the Application: 
 
-go to http://localhost:3000. You should see the page that displays the random secret and the username associated with it.
+Open your browser and go to http://localhost:3000 to generate band names. Every time you click the "Generate Name" button, a new random band name will be displayed.
+
 
